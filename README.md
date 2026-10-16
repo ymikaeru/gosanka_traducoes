@@ -18,6 +18,12 @@ python -m http.server 8765
 
 Depois acesse `http://localhost:8765`.
 
+## Acesso
+
+O site pede a mesma senha do Mioshie Zenshu (`login.html`, chave de sessão `mioshie_auth`).
+Como este repositório é público, o código guarda apenas o SHA-256 da senha, não o texto.
+É uma barreira para visitantes casuais: os arquivos do repositório continuam públicos.
+
 ## Estrutura
 
 | Caminho | Conteúdo |

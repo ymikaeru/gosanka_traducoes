@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login — Cantos Sagrados</title>
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="icon" href="img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Noto+Serif+JP:wght@400;600&display=swap">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(145deg, #F8F9F5 0%, #EDE8DD 100%);
+      color: #333;
+    }
+
+    .login-card {
+      background: #fff;
+      padding: 48px 40px;
+      border-radius: 20px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.04);
+      text-align: center;
+      max-width: 420px;
+      width: 90%;
+      animation: fadeUp 0.5s ease-out;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .login-logo {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 20px;
+      display: block;
+      border-radius: 18px;
+      box-shadow: 0 4px 16px rgba(184,134,11,0.25);
+    }
+
+    .login-title { font-size: 1.6rem; font-weight: 600; margin-bottom: 4px; letter-spacing: -0.02em; }
+    .login-subtitle { font-size: 0.85rem; color: #888; margin-bottom: 6px; }
+    .login-kanji { font-family: 'Noto Serif JP', serif; font-size: 0.9rem; color: #B8860B; margin-bottom: 28px; }
+    .login-label { font-size: 0.85rem; color: #666; margin-bottom: 20px; line-height: 1.5; }
+
+    .login-input {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1.5px solid #ddd;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-family: inherit;
+      text-align: center;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      outline: none;
+    }
+    .login-input:focus { border-color: #B8860B; box-shadow: 0 0 0 3px rgba(184,134,11,0.12); }
+    .login-input.error { border-color: #d32f2f; box-shadow: 0 0 0 3px rgba(211,47,47,0.1); }
+
+    .login-btn {
+      width: 100%;
+      padding: 14px;
+      margin-top: 16px;
+      background: #B8860B;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .login-btn:hover { background: #9a7209; }
+    .login-btn:active { transform: scale(0.98); }
+
+    .login-error {
+      color: #d32f2f;
+      font-size: 0.85rem;
+      margin-top: 14px;
+      display: none;
+      animation: shake 0.4s ease-out;
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%      { transform: translateX(-6px); }
+      40%      { transform: translateX(6px); }
+      60%      { transform: translateX(-4px); }
+      80%      { transform: translateX(4px); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-card">
+    <img class="login-logo" src="img/apple-touch-icon.png" alt="Cantos Sagrados">
+
+    <h1 class="login-title">Cantos Sagrados</h1>
+    <p class="login-subtitle">Traduções para o Livro de Oração</p>
+    <p class="login-kanji">御讃歌集</p>
+
+    <p class="login-label">Por favor, insira a senha de acesso.</p>
+
+    <form id="loginForm" autocomplete="off">
+      <input type="password" id="loginPw" class="login-input" placeholder="Senha" autofocus>
+      <button type="submit" class="login-btn">Entrar</button>
+      <p class="login-error" id="loginError">Senha incorreta. Tente novamente.</p>
+    </form>
+  </div>
+
+  <script>
+    // Mesma senha e mesma chave de sessão do Mioshie Zenshu.
+    // Como este repositório é público, guardamos só o SHA-256 da senha, nunca o texto.
+    var PW_SHA256 = '925933144f0b01b062954b29d2dc665c63d5e15083d31d30e35536859bc1f787';
+
+    // crypto.subtle só existe em contexto seguro: força HTTPS fora do localhost
+    if (location.protocol === 'http:' && !/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)) {
+      location.replace('https:' + location.href.slice(5));
+    }
+
+    function destination() {
+      var dest = new URLSearchParams(location.search).get('redirect') || 'index.html';
+      // só aceita páginas deste site (evita redirecionar para outro domínio)
+      return /^[\w\-./]*\.html(#[\w-]*)?$/.test(dest) ? dest : 'index.html';
+    }
+
+    if (sessionStorage.getItem('mioshie_auth') === 'true') {
+      location.replace(destination());
+    }
+
+    var form = document.getElementById('loginForm');
+    var pw   = document.getElementById('loginPw');
+    var err  = document.getElementById('loginError');
+
+    function sha256(text) {
+      return crypto.subtle.digest('SHA-256', new TextEncoder().encode(text)).then(function (buf) {
+        return Array.prototype.map.call(new Uint8Array(buf), function (b) {
+          return ('0' + b.toString(16)).slice(-2);
+        }).join('');
+      });
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      sha256(pw.value).then(function (hash) {
+        if (hash === PW_SHA256) {
+          sessionStorage.setItem('mioshie_auth', 'true');
+          location.replace(destination());
+        } else {
+          err.style.display = 'block';
+          pw.classList.add('error');
+          pw.value = '';
+          pw.focus();
+          err.style.animation = 'none';
+          err.offsetHeight; // reinicia a animação
+          err.style.animation = '';
+        }
+      });
+    });
+
+    pw.addEventListener('input', function () {
+      pw.classList.remove('error');
+      err.style.display = 'none';
+    });
+  </script>
+
+</body>
+</html>
