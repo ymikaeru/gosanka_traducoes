@@ -31,6 +31,7 @@ Como este repositório é público, o código guarda apenas o SHA-256 da senha, 
 | `index.html`, `css/`, `js/` | o site |
 | `data/gosanka.js` | dados gerados (não editar à mão) |
 | `traducoes/fiel_00*.txt` | tradução fiel — `número\|linha 1 / linha 2 / linha 3` |
+| `traducoes/notas_00*.txt` | notas de tradução — `número\|nota`: o que a escolha de palavras de Meishu-sama carrega e o português não mostra sozinho (leituras duplas, imagens dentro do ideograma, epítetos clássicos, alusões) |
 | `traducoes/antiga_3linhas.txt` | tradução antiga em 3 linhas (só as quebras podem mudar) |
 | `traducoes/_5_versos/` | versão anterior da tradução fiel, em 5 versos |
 | `scripts/` | geração dos dados |

@@ -43,6 +43,7 @@ def main():
         src = json.load(f)
     fiel = load_lines("fiel_*.txt")
     antiga = load_lines("antiga_3linhas.txt")
+    notas = {n: " / ".join(v) for n, v in load_lines("notas_*.txt").items()}
 
     sections, missing = [], []
     for s in src["sections"]:
@@ -64,6 +65,8 @@ def main():
                 "old": old3,
                 "new": fiel.get(n, []),
             })
+            if n in notas:
+                sec["poems"][-1]["nt"] = notas[n]
         sections.append(sec)
 
     if missing:

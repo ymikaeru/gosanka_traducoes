@@ -75,6 +75,7 @@
                 '<div class="tr fiel"><div class="tr-label">Fiel</div><p>' + p.new.map(function (l) { return "<span>" + esc(l) + "</span>"; }).join("") + "</p></div>" +
                 '<div class="tr antiga"><div class="tr-label">Antiga</div><p>' + p.old.map(function (l) { return "<span>" + esc(l) + "</span>"; }).join("") + "</p></div>" +
               "</div>" +
+              (p.nt ? '<p class="p-nota"><b>Nota de tradução</b>' + esc(p.nt) + "</p>" : "") +
             "</div>" +
           "</div>" +
           '<div class="decide"><span class="lbl">Para o livro:</span>' +
@@ -216,7 +217,7 @@
   // ---------- busca + filtro ----------
   var norm = function (s) { return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); };
   var index = {};
-  ALL.forEach(function (p) { index[p.n] = norm([p.jp, p.ro.join(" "), p.oldTxt, p.newTxt].join(" ")); });
+  ALL.forEach(function (p) { index[p.n] = norm([p.jp, p.ro.join(" "), p.oldTxt, p.newTxt, p.nt || ""].join(" ")); });
   var qEl = $("#q"), filterEl = $("#filter"), filterVal = "all", timer;
   qEl.addEventListener("input", function () { clearTimeout(timer); timer = setTimeout(applyFilter, 120); });
   qEl.addEventListener("keydown", function (e) {
@@ -280,6 +281,7 @@
         out.push("### " + p.n + (p.mk ? " " + p.mk.replace(/\*/g, "\\*") : "") + "  ·  _" + src + "_", "",
           p.ro.map(function (l) { return "*" + l + "*"; }).join("  \n"), "", p.jp.replace(/[\s　]+/g, "　"), "",
           t.split("\n").map(function (l) { return l.trim(); }).filter(Boolean).join("  \n"), "");
+        if (p.nt) out.push("> **Nota de tradução:** " + p.nt, "");
       });
     });
     if (pend) out.splice(4, 0, "> " + pend + " poema(s) ainda sem escolha — incluídos com a tradução fiel provisória.", "");
