@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>御讃歌集 · Cantos Sagrados</title>
+<meta name="description" content="御讃歌集（改訂版） de Meishu-sama — comparação da tradução antiga com a tradução fiel, para a preparação do novo Livro de Oração.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=11">
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="#topo"><span class="brand-jp">御讃歌集</span><span class="brand-pt">Cantos Sagrados · Livro de Oração</span></a>
+
+  <div class="seg" role="radiogroup" aria-label="Visualização">
+    <button role="radio" data-mode="ambas" title="Original, Fiel e Antiga lado a lado">Comparar</button>
+    <button role="radio" data-mode="fiel">Só fiel</button>
+    <button role="radio" data-mode="antiga">Só antiga</button>
+  </div>
+
+  <div class="bar-right">
+    <select id="filter" title="Filtrar pela escolha para o livro">
+      <option value="all">Todos</option>
+      <option value="pending">Pendentes</option>
+      <option value="fiel">Escolhidos: Fiel</option>
+      <option value="antiga">Escolhidos: Antiga</option>
+      <option value="editada">Escolhidos: Editada</option>
+    </select>
+    <input id="q" type="search" placeholder="Buscar nº ou texto…" autocomplete="off">
+    <button class="chip" id="btn-jp" aria-pressed="true" title="Mostrar o original japonês como referência">日</button>
+    <div class="progress" title="Poemas com escolha definida para o livro">
+      <span id="prog-txt">0 / 462</span>
+      <span class="prog-bar"><span id="prog-fill"></span></span>
+    </div>
+    <details class="menu">
+      <summary class="chip">Exportar ▾</summary>
+      <div class="menu-pop">
+        <button id="exp-md">Livro de Oração (.md)</button>
+        <button id="exp-json">Backup das escolhas (.json)</button>
+        <label class="menu-file">Importar backup…<input id="imp-json" type="file" accept=".json,application/json" hidden></label>
+      </div>
+    </details>
+    <button class="icon-btn" id="btn-theme" aria-label="Alternar tema">◐</button>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="toc" id="toc" aria-label="Seções"></nav>
+
+  <main id="topo">
+    <section class="hero">
+      <div class="hero-title">
+        <p class="hero-jp">御讃歌集<span>（改訂版）</span></p>
+        <h1>Coletânea de Cantos Sagrados</h1>
+        <p class="hero-sub">Edição revisada · Meishu-sama (Okada Mokichi) · <span id="hero-dates"></span></p>
+      </div>
+      <div class="criteria">
+        <p><strong>Fiel</strong> — segue a ordem dos versos do waka e conserva as imagens que Meishu-sama escolheu
+          (<em>眼を醒す</em> = “abrir os olhos”, <em>塵も芥も</em> = “pó e cisco”), sem acrescentar o que não está no original.
+          “Eu” em maiúscula quando Meishu-sama fala da própria Obra.</p>
+        <p><strong>Antiga</strong> — a tradução atual do acervo, que prioriza o sentido.</p>
+        <p><strong>Para o livro</strong> — em cada poema, escolha a versão que entra no Livro de Oração, ou <em class="pt">Editar</em> para
+          ajustar o texto. As escolhas ficam salvas neste navegador; use <em class="pt">Exportar</em> para gerar o livro ou um backup.</p>
+      </div>
+      <details class="preface" id="preface"></details>
+    </section>
+
+    <div id="poems"></div>
+    <p class="empty" id="empty" hidden>Nenhum poema encontrado.</p>
+  </main>
+</div>
+
+<script src="data/gosanka.js?v=11"></script>
+<script src="js/app.js?v=11"></script>
+</body>
+</html>
