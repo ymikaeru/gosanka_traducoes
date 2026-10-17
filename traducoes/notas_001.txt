@@ -1,109 +1,110 @@
-# Notas de tradução — pistas da profundidade e da arte das palavras de Meishu-sama
-# que o português, por limitação da língua, não consegue carregar sozinho.
-# Formato: número|nota
-1|Meishu-sama escreve Miroku com os números 五六七 (cinco, seis, sete). Em seu ensinamento, 5 é Fogo, 6 é Água e 7 é Terra: o nome no fim do poema repete, em números, o 火水土 do primeiro verso. 出でます (idemasu) é o "surgir" honorífico das divindades, como o sol que se levanta.
-2|打樹てむ (uchitatemu), "erguer", traz o ideograma 樹, árvore: erguer o Paraíso como quem planta uma árvore firme. 揮はす (furuwasu) é brandir, como quem empunha uma espada ou um pincel — o Poder em movimento.
-3|"Como o ladrão" ecoa a Bíblia: "o Dia do Senhor virá como ladrão de noite" (1 Ts 5:2; Mt 24:43). 下生 (geshō) é o termo budista para a descida de Miroku (Maitreya) do céu para nascer entre os homens: não é só "descer", é descer para nascer neste mundo.
-4|再臨 (sairin) é o termo cristão para a Segunda Vinda. O poema reúne numa só frase as esperas do cristianismo (Cristo), do judaísmo (Messias) e do budismo (Miroku) e afirma que esperavam o mesmo Deus.
-5|御位 (mikurai) é o trono e a posição augusta. 下生 (geshō), como no poema 3, é descer para nascer entre os homens — o altíssimo que se faz humano pela salvação.
-6|例しなき (tameshi naki) é "sem exemplo anterior": nunca houve nada igual para servir de modelo. など救はめや é pergunta retórica que equivale a "de modo algum se salvaria".
-7|千早振 (chihayaburu) é o epíteto poético dos deuses, ligado à força impetuosa. 射し初めて (sashisomete) é o primeiro raio que começa a brilhar. 塵も芥も (chiri mo akuta mo) nomeia dois graus de sujeira: o pó fino e o refugo grosso — nada fica.
-8|四柱の神 são os quatro deuses da purificação (祓戸四柱の神) da liturgia xintoísta. 積りつもりし repete o verbo "acumular" para dar o peso do acúmulo lento de milênios. 祓ひ浄めよ une "dissipar" (harau, o gesto ritual de varrer o mal) e "purificar" (kiyomu).
-9|洗霊 (senrei) soa exatamente como 洗礼 (senrei), "batismo". Meishu-sama troca o ideograma 礼 (rito) por 霊 (espírito): não é um rito de água, é a lavagem do próprio espírito pelo Fogo e pela Água.
-10|仕組 (shikumi) é "mecanismo, arranjo, trama": o Plano de Deus como uma engrenagem montada com precisão ao longo da história, e não apenas uma intenção. "Plano" perde essa ideia de construção.
-11|Cena do Kojiki: o Juramento (誓約, ukehi) entre Amaterasu e Susanowo, junto ao Poço Celestial de Manai, no leito do rio Yasu, do qual nasceram cinco deuses e três deusas — o Cinco e o Três dos poemas 16 e 17. 久方の (hisakata no), "de longe, de há muito", é o epíteto poético do céu.
-12|O contraste é o centro do poema: oito (八人) tornam-se um só (唯一柱). 柱 (hashira), "pilar", é a palavra com que se contam os deuses em japonês: cada deus é uma coluna que sustenta o mundo.
-13|天翔り国馳り (amakakeri kunikakeri) faz eco de som: "kakeri" no céu, "kakeri" na terra — o movimento do Dragão abrange tudo. 金剛 (kongō) é o vajra budista: diamante, o que não se quebra.
-14|給ひ (tamai), forma honorífica, aparece duas vezes: nascer e salvar são ambos atos de uma divindade.
-15|化仏 (kebutsu) é o "Buda de transformação": uma forma provisória assumida para salvar. 大慈大悲: no budismo, 慈 é dar alegria e 悲 é tirar o sofrimento — "amor" e "misericórdia" são as duas mãos da mesma compaixão.
-16|Jogo de sons: na leitura, 五と三 soa "izu to mizu". O Cinco é "izu" e o Três ecoa "mizu", água; Fogo e Água unidos formam Izu-no-me (伊都能売).
-17|経緯 (tate yoko) são, ao pé da letra, a urdidura e a trama de um tecido: o fio vertical e o fio horizontal. O mundo como tecelagem do masculino e do feminino — imagem que "vertical e horizontal" não mostra.
-19|十 (dez) é a cruz: o traço vertical (Fogo) e o horizontal (Água) unidos — a mesma união que forma Izunome nos poemas 16 e 17. 自由無碍 (jiyū muge) é termo budista: livre e sem nenhum obstáculo.
-20|Meishu-sama ensina a passagem da Era da Noite para a Era do Dia. A repetição 夜の教 / 夜の文化 marca que tanto a religião quanto a cultura pertenciam à Noite. 光明世界 (kōmyō sekai), o "Mundo da Luz", é o nome que ele dá à era que vem.
-21|あくがれ (akugare) é a forma antiga de "ansiar": originalmente, a alma que sai do próprio lugar por saudade. Não é só esperar — é a alma ir ao encontro do que espera.
-22|花笑ひ (hana warai): em japonês, as flores "riem" quando desabrocham — florescer e sorrir são o mesmo verbo. 百鳥 (momotori), "cem pássaros", são todas as aves.
-23|曲 (maga) é, ao pé da letra, "torto, curvo": o mal como aquilo que se desvia da linha reta. Opõe-se a 正 (tadashi), "reto", que atravessa toda a coletânea. 障 (sawari) é obstáculo, estorvo.
-24|仇雲 (adagumo) são nuvens inimigas, hostis. 大き日 (ōki hi), o "grande Sol", aponta para a Era do Dia; 照らふ (terau) é o brilho que continua, que não se apaga.
-25|やは no final é pergunta retórica forte: não podem ficar encerrados para sempre.
-26|岩戸 (iwato) é a Porta de Pedra do mito do Kojiki: Amaterasu, a deusa do Sol, escondeu-se numa caverna e o mundo mergulhou nas trevas; quando a porta se abriu, a luz voltou. Abrir a Porta de Pedra do coração é deixar o Sol sair de dentro de cada um.
-27|烏羽玉の (ubatama no) é o epíteto poético da noite e do negro, das sementes negras da íris-leopardo. あかとき (akatoki) é a palavra antiga para "alvorada".
-28|水晶 (suishō), o cristal, é a transparência total: nada fica oculto. 曇り (kumori) é tanto a nuvem no céu quanto o embaçado de um espelho ou cristal.
-29|ほのぼのと (honobono to) é a primeira claridade da aurora, ainda tênue, que vai crescendo — e também uma sensação de calor no coração. 眼とどめそ é "detende o olhar".
-30|朝日子 (asahiko), "o sol da manhã", leva o sufixo 子, de afeto e reverência. 勇ましし (isamashishi) é coragem, ânimo vibrante: até os pardais ganham ânimo com a luz.
-31|明烏 (akegarasu), o corvo da madrugada: na tradição japonesa, o corvo é mensageiro do Sol (o corvo de três patas, Yatagarasu).
-32|家鶏鳥 (kakedori) é a palavra antiga para o galo. No mito do Kojiki, foi o canto dos galos que chamou Amaterasu para fora da caverna — o galo anuncia a volta da luz.
-33|常暗 (tokoyami), "treva perpétua", é a palavra do Kojiki para o mundo sem Sol quando Amaterasu se escondeu. 小羊 (kohitsuji), o cordeiro, é imagem bíblica.
-34|A noite de lua é meia-luz: há claridade, mas há sombra. Para Meishu-sama, a Era da Noite é a era da Lua, e nas suas sombras nascem pecados e máculas. 詮なし (sennashi) é "não há o que fazer", resignação.
-35|真昼間 (mahiruma) é o meio-dia em ponto, com o sol a pino: a hora sem sombras. Por isso nada pode se esconder. よもあらめやは é negação enfática.
-36|邪 (yokoshima) é, ao pé da letra, "atravessado, de lado" (横): o mal como o que não está reto.
-37|真陽 (mahi) é o "Verdadeiro Sol". 眼くらまん: os olhos acostumados ao escuro ficam cegos de luz.
-38|心の空 (kokoro no sora), "o céu do coração", e 晴れし (hareshi), o céu que limpa depois das nuvens: o coração como um céu que muda de tempo.
-40|病き (itatsuki) é a palavra antiga para doença, de "itatsuku", doer. Meishu-sama prefere esta forma arcaica ao comum byōki em toda a coletânea.
-41|医しの業 (iyashi no waza), "a arte de curar". 許されにける é "foi-me permitido": não apenas dado, mas consentido por Deus — o que mostra humildade. "Concedida" perde o "permitido".
-43|ひたに縋りて (hita ni sugarite) é agarrar-se com todo o ser, como a criança à mãe; o objeto não é dito, mas é Deus.
-44|奉らで: o verbo humilde 奉る põe quem retribui abaixo de Quem deu.
-46|讃へても讃へつくせぬ repete o verbo louvar: louvar e louvar sem conseguir esgotar.
-47|誠 (makoto) é mais que "sinceridade": é a verdade (真) e a palavra que se cumpre (言+成). しるし (shirushi) é um sinal, uma prova visível.
-48|村肝の (murakimo no) é o epíteto poético do coração (de "as vísceras reunidas"); aqui abre o verso da vida. 獣 (kemono) é o animal, a fera.
-49|恙 (tsutsuga) era um pequeno inseto que se acreditava causar doenças; "sem tsutsuga" é estar são e salvo. 千億 (sen'oku), "cem bilhões", é uma riqueza além de toda conta.
-50|大前 (ōmae), "a Grande Presença", é estar diante da própria divindade. 額く (nukazuku) é tocar o chão com a testa.
-51|おほけなき (ōkenaki) é "imerecido, mais do que me cabe": a humildade de quem recebe.
-52|大御幸 (ōmisachi): "ventura" com dois honoríficos (大 e 御) — uma graça grande e augusta. 筆も言葉も: nem a escrita nem a fala.
-53|曇り (kumori), a nebulosidade do coração: a mesma imagem de céu do poema 38.
-55|同胞 (harakara), "os do mesmo ventre", são os irmãos de sangue; aqui, todos os homens. 蒙ぶりて (kōburite) é receber como quem é coberto por um manto.
-56|恩 (on) é o favor que cria uma dívida de gratidão a ser retribuída. "Favores" perde a ideia de dívida que o coração não esquece.
-57|心砕きて (kokoro kudakite), "quebrar o coração", é esforçar-se ao extremo, com todo o cuidado.
-58|磯の辺の真砂 (isonobe no masago), os grãos de areia da praia: imagem clássica do que é incontável e ínfimo.
-59|尽くさせ給へ: "permiti que eu me esgote" — tsukusu é dar-se até o fim.
-60|非時 (tokijiku) é palavra poética antiga: "sem tempo marcado", isto é, sempre. A repetição 為 (tame), "por", três vezes, faz o ritmo da dedicação.
-61|打忘れ (uchiwasure): esquecer-se por completo de si.
-62|さもしき (samoshiki) é mesquinho, baixo, como quem mendiga reconhecimento.
-63|私心 (shishin) é o "coração privado": o interesse próprio.
-64|床し (yukashi) vem de "querer ir até": algo tão admirável que dá vontade de se aproximar.
-65|程 (hodo) é "medida, justo grau". O poema fala do "único ideograma 程" — como nos poemas 414 e 418, onde todo o caminho cabe no ideograma 誠.
-66|曲人 (magabito), o "homem torto": ver nota do poema 23.
-67|懇ろに (nengoro ni) é com cuidado e afeto, com atenção à raiz das coisas.
-68|人の目を盗む é expressão idiomática para agir às escondidas; ao pé da letra, "furtar os olhos das pessoas". O poema joga com o mesmo verbo 盗む (furtar) nas duas metades.
-69|あしらふ (ashirau) é lidar com algo de leve, com desenvoltura: responder a tudo sorrindo.
-70|救世 (kyūsei, guse) é termo budista, "salvar o mundo", o mesmo do nome da Igreja de Meishu-sama, 世界救世教.
-71|石の上 (isonokami) é o epíteto poético de "antigo" (furu), pelo antigo santuário de Isonokami Furu.
-73|ありやかに (ariyaka ni): com clareza, à vista de todos.
-74|履む (fumu) é pisar com os próprios pés: trilhar o Caminho é andar por ele, não apenas conhecê-lo.
-75|罪穢 (tsumi kegare) é um par do xintoísmo: tsumi, a transgressão, e kegare, a impureza — que também se lê "ke-gare", o definhar da energia vital.
-77|O mesmo verbo 造る (fazer, criar) aparece nas duas metades: a doença é o homem quem faz; a saúde, Deus. A simetria é a mensagem.
-78|奇び (kushibi) é palavra xintoísta para o maravilhoso e misterioso, da mesma raiz de 霊 (kushi), o espiritual. 願事 (negigoto) é a prece feita aos deuses.
-79|惟神 (kamunagara) é termo central do xintoísmo: "assim como são os deuses, em conformidade com o divino". "Como Deus dispõe" é aproximação.
-81|霊衣 (reii), "a veste espiritual", é o manto de luz do corpo espiritual. 遊ぶ (asobu) é brincar, como a criança no campo.
-82|A repetição 如何ならむ罪も ("qualquer pecado") é a estrutura do poema: o mesmo Deus perdoa e repreende, na mesma medida.
-83|億兆 (okuchō), "cem milhões e um trilhão": todos os seres, sem conta. 畏し (kashikoshi) é reverência que chega ao temor.
-84|仰ぎて (aogite) é erguer os olhos para o alto, com reverência: o céu sem limites e o Coração de Deus sem limites se espelham. かな é a exclamação de quem se maravilha.
-87|和田の原 (wada no hara), "a planície do mar", é o vasto oceano aberto.
-88|居まして (imashite) é forma honorífica: Cristo e Buda estão no Céu como seres augustos, e de lá louvam.
-90|刈菰の (karikomo no), "como juncos ceifados", é o epíteto de "desordenado". 打樹つる ("erguer") contém 樹, árvore: ao mundo cortado como juncos opõe-se a Era plantada firme como árvore.
-92|古へゆ (inishie yu), "desde a antiguidade": ゆ é a partícula antiga de origem.
-93|人の身を通じて, "por meio de um corpo humano": Deus age através de um homem.
-94|久方の (hisakata no) é o epíteto poético do céu: ver poema 11.
-95|身魂 (mitama) junta 身 (corpo) e 魂 (alma), mas se lê "mitama", que é também 御霊, o espírito augusto: corpo e alma como uma só coisa sagrada.
-96|O verbo 造る (fazer) volta duas vezes: Deus fez o corpo saudável; o homem faz a doença. Ver poema 77.
-97|造りし (feito) aparece duas vezes: feito por Deus, não feito pelo homem.
-98|薬 aqui se lê "kusushi", a forma antiga de "remédio". 因 (moto) é a raiz, a origem.
-99|哀れ (aware) é a compaixão diante do que é triste — um sentimento, não um julgamento.
-100|高殿 (takadono), a mansão alta, e 錦 (nishiki), o brocado: os dois símbolos clássicos de riqueza.
-101|斎く (itsuku) é cultuar com pureza ritual (斎 é o ideograma da purificação antes do rito).
-102|縁 (enishi) é o laço, a ligação de causa e efeito; a doença foi o fio que trouxe a ventura.
-103|賜はりし (tamawarishi) é receber de um superior: a vida como dádiva.
-104|光明如来 (Kōmyō Nyorai) é o rolo sagrado com esse nome, escrito por Meishu-sama e entronizado nos lares. 斎き奉りて é entronizar com pureza e humildade.
-106|家族等 se lê "ukara-ra": ukara é a palavra antiga para os parentes de sangue.
-107|うからやから (ukara yakara): os parentes de sangue e toda a família ampliada.
-108|御祭り (mimatsuri) é o serviço religioso; 遊ぶ (asobu), "brincar", como no poema 81.
-109|岩戸 (iwato): a Porta de Pedra do mito de Amaterasu — ver poema 26. 拝がむ (orogamu) é curvar-se em adoração.
-110|有難し (arigatashi), "grato", vem de "difícil de existir, raro". A gratidão nasce de reconhecer como é rara a graça recebida.
-113|憧れ (akugare): a alma que sai de si por saudade — ver poema 21.
-114|生きとし生けるもの (ikitoshi ikeru mono), "tudo o que vive", é expressão clássica do prefácio do Kokinshū, a grande antologia poética japonesa.
-115|理 (ri) é a razão, a lógica, o princípio teórico.
-116|杖 (tsue), o cajado, é a imagem do peregrino: a sinceridade como apoio para caminhar.
-117|矯め (tame) é endireitar, como se endireita uma flecha ou um galho torto — o oposto exato de 曲 (maga), o torto. 狂ひ (kurui) é o desvio, o desarranjo.
-118|人の世 / 神の大御代: o mundo dos homens e a Grande Era de Deus. 待ち侘びし (machiwabishi) é esperar até o cansaço.
-119|仏力 / 神力: construção em paralelo — o poder de Buda tem limite; o de Deus, nenhum.
-120|観世音 (Kanzeon) significa "Aquele que contempla os sons do mundo", os clamores de quem sofre. 御名 (mina) é o Nome invocado.
-54|垂乳根の (tarachine no) é o epíteto poético dos pais, especialmente da mãe ("de seios fartos") — por isso "que me nutriram". 此身此魂 (kono mi kono tama): "este corpo, esta alma", em paralelo.
+# Notas de tradução — o que a escolha de palavras de Meishu-sama carrega e o português não mostra sozinho.
+# Formato: número|tipo(s) separados por ";"|texto
+# Tipos: Trocadilho, Imagem no ideograma, Imagem na palavra, Epíteto clássico, Alusão, Simetria, Tom do verso, Ensinamento
+# No texto: `...` vira a "conta" do ideograma em destaque; *...* é a leitura em romaji (itálico).
+1|Ensinamento;Simetria|O poema começa e termina com a mesma coisa, dita de dois jeitos. No início: Fogo, Água e Terra. No fim, o nome Miroku — que Meishu-sama escreve com os números cinco, seis e sete, e em seu ensinamento 5 é Fogo, 6 é Água e 7 é Terra. O nome do Deus é a própria Trindade: `五六七 = 5 Fogo + 6 Água + 7 Terra`.
+2|Imagem no ideograma|"Erguer" o Paraíso, no original, é erguê-lo como quem planta uma árvore firme: o verbo traz dentro o desenho de uma árvore. `樹 = árvore` (em 打樹てむ, *uchitatemu*, "erguer").
+3|Alusão|"Como chega o ladrão" ecoa a Bíblia: "o Dia do Senhor virá como ladrão de noite" (1 Ts 5:2). E "desceu a este mundo" é, no original, o termo budista para a descida de Miroku do céu para nascer entre os homens — não só descer, mas descer para nascer: 下生 (*geshō*).
+4|Alusão|Numa só frase o poema junta três esperas: a dos cristãos (a Segunda Vinda de Cristo), a dos judeus (o Messias) e a dos budistas (Miroku, o Buda do futuro) — e diz que todos esperavam o mesmo Deus. "Segunda Vinda" é, no original, o termo cristão 再臨 (*sairin*).
+5|Imagem na palavra|"Desceu a este mundo" é a descida para nascer como homem, a mesma palavra budista do poema 3 (下生, *geshō*): o Altíssimo que deixa o Trono e se faz humano para salvar.
+6|Imagem na palavra|"Sem precedentes", no original, é "sem nenhum exemplo anterior": nunca houve nada parecido que pudesse servir de modelo. 例しなき (*tameshi naki*).
+7|Epíteto clássico;Imagem na palavra|"Poderoso" é a tradução de um epíteto que a poesia japonesa reserva aos deuses, ligado a uma força impetuosa: 千早振 (*chihayaburu*). E "pó e cisco" são dois graus de sujeira — o pó fino e o refugo grosso: quando a Luz chega, não sobra nem um nem outro. 塵も芥も (*chiri mo akuta mo*).
+8|Alusão;Simetria|Os "Deuses dos Quatro Pilares" são os quatro deuses da purificação invocados nas orações xintoístas. O verso repete o verbo "acumular" (積りつもりし) para fazer sentir o peso de milênios de sujeira se empilhando devagar.
+9|Trocadilho;Ensinamento|"Batismo", em japonês, se diz *senrei* e se escreve com o ideograma de "rito". Meishu-sama mantém o som e troca o ideograma por "espírito": não é um rito com água, é a lavagem do próprio espírito pelo Fogo e pela Água. `洗礼 lavar + rito → 洗霊 lavar + espírito` (os dois se leem *senrei*).
+10|Imagem na palavra|"Plano", no original, é uma palavra que lembra engrenagem, mecanismo montado peça por peça: toda a história como uma máquina construída com precisão por Deus. 仕組 (*shikumi*).
+11|Alusão;Epíteto clássico|A cena vem do Kojiki, o livro mais antigo do Japão: o juramento entre a deusa do Sol e seu irmão, no leito do rio Yasu, do qual nasceram cinco deuses e três deusas — o Cinco e o Três dos poemas 16 e 17. "No Céu longínquo" traduz o epíteto clássico do céu, 久方の (*hisakata no*), "de longe, de há muito".
+12|Simetria;Imagem na palavra|O poema inteiro é um contraste de números: oito tornam-se um só. E, em japonês, os deuses não se contam como pessoas, mas como pilares — cada deus é uma coluna que sustenta o mundo. `柱 = pilar` (a palavra usada para contar deuses).
+13|Simetria;Imagem no ideograma|"Voando pelos céus e percorrendo as terras" ecoa um mesmo som nos dois verbos (*ama-kakeri*, *kuni-kakeri*): o Dragão abrange o alto e o baixo. "Adamantino" traduz o vajra budista, o diamante que nada quebra: 金剛 (*kongō*).
+14|Tom do verso|O verso usa duas vezes a forma de respeito reservada às divindades — para "nascer" e para "salvar". Em português os verbos ficam iguais aos de qualquer pessoa; no original, cada gesto já se mostra divino. 給ひ (*tamai*).
+15|Ensinamento;Imagem na palavra|"Sob a forma de um Buda" é, no original, uma forma provisória que a divindade assumiu para salvar — como uma roupa, não a verdadeira face. E "Grande Amor e Grande Misericórdia" são, no budismo, as duas mãos da compaixão: dar alegria e tirar o sofrimento. 化仏 (*kebutsu*), 大慈大悲.
+16|Trocadilho;Ensinamento|O poema é um jogo de sons. Lido em voz alta, "o Cinco e o Três" soa *izu to mizu* — e *mizu* é "água". Unidos, Fogo e Água formam o nome Izu-no-me. `五 izu (Fogo) + 三 mi(zu) (Água) → 伊都能売 Izunome`.
+17|Imagem na palavra;Ensinamento|"Vertical e horizontal" é, ao pé da letra, a urdidura e a trama de um tecido: o fio que desce e o fio que atravessa. O mundo como uma tecelagem do masculino e do feminino. 経緯 (*tate yoko*).
+19|Imagem no ideograma;Ensinamento|O número dez, em japonês, é uma cruz: um traço vertical (Fogo) cruzado por um horizontal (Água). Kannon tem poder livre porque é a união dos dois. `十 = ｜ vertical (Fogo) + 一 horizontal (Água)`.
+20|Ensinamento;Simetria|A repetição "da Noite… da Noite" marca que tanto a religião quanto a cultura pertenciam à Era da Noite, que Meishu-sama ensina estar dando lugar à Era do Dia. O "Mundo da Luz" é o nome dessa nova era: 光明世界 (*kōmyō sekai*).
+21|Imagem na palavra|"Ansiada" é, na palavra antiga do original, a alma que sai do próprio lugar por saudade: não é só esperar, é a alma ir ao encontro do que espera. あくがれ (*akugare*).
+22|Imagem na palavra|Em japonês, as flores "riem" quando desabrocham — florescer e sorrir são o mesmo verbo. "As flores sorriem" não é metáfora inventada: é como a língua vê o florescer. 花笑ひ (*hana warai*).
+23|Imagem na palavra|"O mal", no original, é literalmente "o torto, o curvo" — o que se desvia da linha reta. Ao longo de toda a coletânea ele se opõe ao "reto". `曲 = torto` ↔ `正 = reto`.
+24|Ensinamento|"O grande Sol", depois que as nuvens hostis se afastam, aponta para a Era do Dia que Meishu-sama anuncia. O verbo do brilho é contínuo: um sol que brilha e não se apaga. 大き日 (*ōki hi*).
+25|Tom do verso|A pergunta "até quando?" termina, no original, com uma partícula que a torna quase um protesto: não podem ficar fechados nas trevas para sempre. やは (*ya wa*).
+26|Alusão|A "Porta de Pedra" vem do mito japonês da deusa do Sol: ela se escondeu numa caverna e o mundo ficou às escuras; quando a porta de pedra se abriu, a luz voltou. Abrir a Porta de Pedra do coração é deixar o Sol sair de dentro de cada um. 岩戸 (*iwato*).
+27|Epíteto clássico|"A noite negra" traduz um epíteto clássico da noite, que nomeia as sementes muito negras de uma flor. E "alvorada" é uma palavra antiga, de sabor poético. 烏羽玉の (*ubatama no*), あかとき (*akatoki*).
+28|Imagem na palavra|"Sem nuvem alguma", no original, serve tanto para o céu limpo quanto para um cristal ou espelho sem embaçado: o Mundo de Cristal é transparente, nada fica escondido. 曇りなき (*kumori naki*).
+29|Imagem na palavra|"Tenuemente" é a primeira claridade da aurora, ainda fraca, que vai crescendo — e a palavra também traz uma sensação de calor no coração. ほのぼのと (*honobono to*).
+30|Tom do verso|"O sol nascente" vem com um sufixo de carinho e reverência, como quem diz "o querido sol da manhã". E os pardais não estão só "animados": têm coragem, ânimo novo. 朝日子 (*asahiko*).
+31|Alusão|O corvo da madrugada não é uma ave qualquer: na tradição japonesa, o corvo é o mensageiro do Sol. É ele quem anuncia a luz. 明烏 (*akegarasu*).
+32|Alusão|"O galo", numa palavra antiga, lembra o mito da caverna: foi o canto dos galos que chamou a deusa do Sol para fora. O galo anuncia a volta da luz. 家鶏鳥 (*kakedori*).
+33|Alusão|"Trevas perpétuas" é a palavra do mito para o mundo sem Sol, quando a deusa se escondeu na caverna; e o "cordeirinho" é a imagem bíblica do rebanho perdido. O poema une as duas tradições. 常暗 (*tokoyami*).
+34|Ensinamento|A noite de lua é meia-luz: há claridade, mas sobram sombras — e é nelas que nascem pecados e máculas. Para Meishu-sama, a Era da Noite é a era da Lua. "E não há remédio" é resignação: assim tinha de ser naquela era. 詮なし (*sennashi*).
+35|Imagem na palavra|"O pleno meio-dia" é o sol a pino: a única hora do dia sem sombras. Por isso, nessa Era, nada pode se esconder. 真昼間 (*mahiruma*).
+36|Imagem no ideograma|"A maldade", no original, é literalmente "o que está atravessado, de lado" — o mal como aquilo que não está reto. `邪 (yokoshima) ← 横 de lado`.
+37|Tom do verso|"Vos ofuscará os olhos" é o susto de quem se acostumou ao escuro e de repente recebe o sol em cheio: a Luz Verdadeira chega a cegar. 真陽 (*mahi*), o "Verdadeiro Sol".
+38|Imagem na palavra|O coração é tratado como um céu que muda de tempo: estava encoberto e "desanuviou-se" como o meio-dia. 心の空 (*kokoro no sora*), "o céu do coração".
+40|Tom do verso|Para "doença", Meishu-sama usa em toda a coletânea uma palavra antiga, ligada a "doer", em vez da palavra comum. Dá ao verso um tom mais grave e poético. 病き (*itatsuki*).
+41|Tom do verso|"Me foi concedida" é, no original, "me foi permitida": a arte da cura não é só um presente, é algo que Deus consentiu. A palavra mostra humildade. 許されにける (*yurusarenikeru*).
+43|Imagem na palavra|"Confiando-me por inteiro" é agarrar-se com todo o ser, como a criança se agarra à mãe. O poema não diz a quem — mas é a Deus. ひたに縋りて (*hita ni sugarite*).
+44|Tom do verso|"Retribuir", no original, vem numa forma humilde: quem retribui se coloca abaixo de Quem deu. 奉らで (*matsurade*).
+46|Simetria|O verso repete o verbo louvar — louvar e louvar sem conseguir esgotar. A repetição é o próprio esforço de quem não acha palavras. 讃へても讃へつくせぬ.
+47|Imagem no ideograma|"Sinceridade" traduz uma palavra mais funda: é a verdade, e é a palavra que se cumpre. O ideograma junta "palavra" e "realizar". `誠 = 言 palavra + 成 realizar`.
+48|Epíteto clássico|O verso abre com um epíteto clássico do coração ("as vísceras reunidas", o íntimo), colocado aqui antes da palavra "vida": a vida recebida no mais íntimo. 村肝の (*murakimo no*).
+49|Imagem na palavra|"Livre de males" vem de uma palavra antiga ligada a um pequeno inseto que, se acreditava, causava doenças: estar "sem ele" é estar são e salvo. 恙なく (*tsutsuganaku*).
+50|Imagem na palavra|"Diante do Altar" é, no original, "diante da Grande Presença": estar frente a frente com a própria divindade. E "reverência" é tocar o chão com a testa. 大前 (*ōmae*), 額く (*nukazuku*).
+51|Tom do verso|"Graça imerecida" carrega o sentimento de quem recebe mais do que lhe cabe — quase um constrangimento diante de tanta bondade. おほけなき (*ōkenaki*).
+52|Tom do verso|"Grande ventura" leva dois sinais de reverência no original, um de grandeza e outro de sacralidade: não é uma sorte comum, é uma graça augusta. 大御幸 (*ōmisachi*).
+53|Imagem na palavra|"As nuvens do coração" continuam a imagem do poema 38: o coração como céu encoberto, que agora limpou sem deixar rastro.
+54|Epíteto clássico;Simetria|"Que me nutriram" traduz um epíteto clássico dos pais, sobretudo da mãe ("de seios fartos"). E "este corpo, esta alma" vem em paralelo perfeito no original. 垂乳根の (*tarachine no*).
+55|Imagem na palavra|"Irmãos" é, no original, "os nascidos do mesmo ventre" — aqui, todos os homens. E "receber a Luz" é recebê-la como quem é coberto por um manto. 同胞 (*harakara*).
+56|Imagem na palavra|"Favores" é pouco: a palavra original é o favor que cria uma dívida de gratidão, que o coração guarda e quer retribuir. É isso que torna o ser humano precioso. 恩 (*on*).
+57|Imagem na palavra|"Empenhando todo o coração" é, ao pé da letra, "quebrar o coração": esforçar-se até o limite, com todo o cuidado. 心砕きて (*kokoro kudakite*).
+58|Alusão|"Um grão de areia da praia" é imagem clássica da poesia japonesa para o que é incontável e ínfimo: a humildade de quem fala. 磯の辺の真砂.
+59|Imagem na palavra|"Deixai-me servir" é, no original, "deixai-me esgotar-me": dar-se até não sobrar nada. 尽くさせ給へ (*tsukusase tamae*).
+60|Simetria|"Pelo Caminho, pelo mundo, pelos homens": a mesma palavra "por" se repete três vezes, como um ritmo de dedicação. E "a todo momento" é uma palavra poética antiga, "sem tempo marcado". 為 (*tame*), 非時 (*tokijiku*).
+61|Tom do verso|"Esquece de si" é esquecer-se por completo, sem resto. 打忘れ (*uchiwasure*).
+62|Imagem na palavra|"Mesquinho" é, no original, o baixo e o pidão, como quem mendiga reconhecimento. さもしき (*samoshiki*).
+63|Imagem na palavra|"Interesse próprio" é, ao pé da letra, "coração privado": o coração voltado só para si. 私心 (*shishin*).
+64|Imagem na palavra|"Admirável" vem de uma palavra que significa "querer ir até": algo tão belo que dá vontade de se aproximar. 床し (*yukashi*).
+65|Imagem no ideograma;Ensinamento|O poema fala de um único ideograma, "medida" — a justa medida em tudo. É o mesmo gesto dos poemas 414 e 418, onde todo o caminho cabe no ideograma da sinceridade. `程 = medida, justo grau`.
+66|Imagem na palavra|"O homem mau" é, no original, "o homem torto" — ver o poema 23. 曲人 (*magabito*).
+67|Imagem na palavra|"Com carinho" é, no original, com um cuidado que vai à raiz das coisas: atenção paciente, sem pressa. 懇ろに (*nengoro ni*).
+68|Trocadilho;Simetria|O poema joga com a mesma palavra, "furtar", nas duas metades. "Furtar os olhos das pessoas" é uma expressão japonesa para agir às escondidas: agir às escondidas já é, portanto, furtar. 人の目を盗む / 人の物盗む.
+69|Imagem na palavra|"Responder com um sorriso" é lidar com tudo com leveza e desenvoltura, sem deixar o peso aparecer. あしらふ (*ashirau*).
+70|Imagem na palavra|"Salvação do Mundo" é um termo budista — o mesmo que dá nome à Igreja de Meishu-sama, Sekai Kyūsei Kyō. 救世 (*kyūsei*).
+71|Epíteto clássico|"Antiga" traduz um epíteto clássico da palavra "antigo", tirado do nome de um santuário muito antigo. 石の上 (*isonokami*).
+73|Tom do verso|"Com clareza" é, no original, à vista de todos, sem margem de dúvida: o Poder de Deus fica evidente na cura. ありやかに (*ariyaka ni*).
+74|Imagem na palavra|"Trilhar" o Caminho é, no original, pisar com os próprios pés: conhecer o Caminho não basta, é preciso andar por ele. 履む (*fumu*).
+75|Imagem na palavra;Ensinamento|"Pecados e máculas" é um par do xintoísmo: a falta cometida e a impureza acumulada. A palavra para impureza também se lê como "o definhar da energia vital". 罪穢 (*tsumi kegare*).
+77|Simetria|O mesmo verbo "fazer" aparece nas duas metades: a doença, é o homem quem a faz; a saúde, é Deus quem a faz. A simetria é a mensagem. 造る (*tsukuru*).
+78|Imagem na palavra|"Mistério" traduz uma palavra xintoísta para o maravilhoso, da mesma raiz de "espiritual". E "prece" é, no original, a súplica dirigida aos deuses. 奇び (*kushibi*), 願事 (*negigoto*).
+79|Imagem na palavra;Ensinamento|"Como Deus dispõe" traduz uma palavra central do xintoísmo: viver em conformidade com o divino, deixando-se levar por Deus. 惟神 (*kamunagara*).
+81|Ensinamento;Imagem na palavra|"Manto espiritual" é a veste de luz do corpo espiritual. E "brincar" é o verbo da criança no campo — a alegria leve de quem está protegido. 霊衣 (*reii*), 遊ぶ (*asobu*).
+82|Simetria|O poema é construído em espelho: "seja qual for o pecado, Ele perdoa; seja qual for o pecado, Ele repreende". O mesmo Deus, na mesma medida, perdoa e corrige.
+83|Imagem na palavra|"As miríades" é, no original, "cem milhões e um trilhão": todos os seres, sem conta. E "augusto" carrega uma reverência que chega ao temor. 億兆 (*okuchō*), 畏し (*kashikoshi*).
+84|Tom do verso|O verbo original não é só "olhar": é erguer os olhos para algo acima de nós, com reverência. É o gesto de quem olha um céu sem fim e, nele, pensa num Coração sem fim. O verso termina com a exclamação de quem se maravilha. 仰ぐ (*aogu*), かな (*kana*).
+87|Imagem na palavra|"O vasto mar" é, no original, "a planície do mar": o oceano aberto, a perder de vista. 和田の原 (*wada no hara*).
+88|Tom do verso|"Lá do Céu onde estão" vem com forma de respeito: Cristo e Buda estão no Céu como seres augustos, e de lá louvam a Obra. 居まして (*imashite*).
+90|Epíteto clássico;Imagem no ideograma|"Como juncos ceifados" é o epíteto clássico do que está em desordem. E "planto" é a mesma árvore do poema 2: ao mundo cortado como juncos opõe-se a Era plantada firme como árvore. `樹 = árvore` (em 打樹つる, "erguer").
+92|Tom do verso|"Desde a antiguidade" usa uma partícula antiga, de sabor arcaico, como se o próprio verso viesse de longe. 古へゆ (*inishie yu*).
+93|Ensinamento|"Por meio de um corpo humano": a Obra é de Deus, mas Deus age através de um homem. 人の身を通じて.
+94|Epíteto clássico|"Longínquo" traduz o epíteto clássico do céu — ver o poema 11. 久方の (*hisakata no*).
+95|Trocadilho;Ensinamento|"Corpo e espírito" é, no original, uma só palavra que junta "corpo" e "alma" — e que se lê igual a "espírito augusto". Corpo e alma como uma só coisa sagrada. `身 corpo + 魂 alma → 身魂 (mitama) = 御霊 espírito augusto`.
+96|Simetria|O verbo "fazer" volta duas vezes: Deus fez o corpo saudável; o homem faz a doença. Ver o poema 77. 造る (*tsukuru*).
+97|Simetria|"Feito" aparece duas vezes, em espelho: feito por Deus, não feito pelo homem. 造りし (*tsukurishi*).
+98|Tom do verso|"Remédios" aparece numa forma antiga da palavra; e "causa" é, no original, a raiz, a origem. 薬 (*kusushi*), 因 (*moto*).
+99|Imagem na palavra|"Digno de pena" é um sentimento de compaixão diante do que é triste — não um julgamento de quem está acima. 哀れ (*aware*).
+100|Alusão|"Altos palácios" e "brocado" são os dois símbolos clássicos de riqueza na poesia japonesa. Nem eles livram da doença. 高殿 (*takadono*), 錦 (*nishiki*).
+101|Imagem no ideograma|"Cultuar" é, no original, cultuar com pureza ritual: o ideograma é o da purificação que se faz antes do rito. `斎 = pureza ritual` (em 斎く, *itsuku*).
+102|Imagem na palavra|"Laço" é, no original, a ligação de causa e efeito entre as coisas: a doença foi o fio que trouxe a ventura de servir a Deus. 縁 (*enishi*).
+103|Tom do verso|"Recebi" é receber de um superior: a vida como dádiva vinda de cima. 賜はりし (*tamawarishi*).
+104|Ensinamento|"Komyo Nyorai" é o rolo sagrado com esse nome, escrito por Meishu-sama e entronizado nos lares. "Entronizar" é colocá-lo com pureza e humildade. 光明如来, 斎き奉りて.
+106|Tom do verso|"Os familiares" é, no original, uma palavra antiga para os parentes de sangue — dá ao verso um tom de linhagem, de antepassados. 家族等 (*ukarara*).
+107|Imagem na palavra|"Parentes e antepassados" traduz um par: os parentes de sangue e toda a família ampliada, o clã inteiro que se alegra no mundo espiritual. うからやから (*ukara yakara*).
+108|Imagem na palavra|"Brincando no Paraíso" é o mesmo verbo do poema 81: a alegria leve da criança, agora vivida por corpo e alma. 遊ぶ (*asobu*).
+109|Alusão|"A Porta de Pedra" é a caverna da deusa do Sol — ver o poema 26. O coração que se curva em oração é o sinal de que a porta se abriu e a luz voltou. 岩戸 (*iwato*).
+110|Imagem na palavra|"Gratidão", em japonês, vem de "difícil de existir, raro": agradecer é reconhecer como é rara a graça recebida. 有難し (*arigatashi*).
+113|Imagem na palavra|"Ansiado" é a alma que sai de si por saudade — ver o poema 21. あくがれ (*akugare*).
+114|Alusão|"Todos os seres que vivem" é uma expressão famosa do prefácio do Kokinshū, a grande antologia clássica da poesia japonesa. 生きとし生けるもの.
+115|Imagem na palavra|"Teoria" é, no original, a razão e a lógica: a salvação não vem do raciocínio, vem da Graça. 理 (*ri*).
+116|Imagem na palavra|"O cajado" é a imagem do peregrino: a sinceridade como apoio para quem caminha. 杖 (*tsue*).
+117|Imagem no ideograma|"Endireitar" é, no original, o verbo de endireitar uma flecha torta — o oposto exato do "torto" (ver poema 23). `矯 = endireitar (de 矢 flecha)`.
+118|Simetria|"O mundo dos homens" e "a Grande Era de Deus" ficam frente a frente nas duas metades. E "tão esperada" é esperar até se cansar de esperar. 待ち侘びし (*machiwabishi*).
+119|Simetria|O poema é construído em paralelo: "o poder de Buda tem limite / o poder de Deus não tem limite". 仏力 / 神力.
+120|Imagem na palavra|"Kanzeon" significa "Aquele que contempla os sons do mundo" — os clamores de quem sofre. A salvação vinha de invocar esse Nome. 観世音.

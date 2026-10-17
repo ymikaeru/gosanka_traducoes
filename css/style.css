@@ -211,3 +211,50 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   font-size: 15.5px; line-height: 1.5; color: var(--ink-soft);
 }
 .p-nota b { display: block; font-family: var(--ui); font-size: 10.5px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin-bottom: 2px; }
+
+
+/* notas de tradução — formato didático */
+.p-nota p { margin: 0; }
+.nt-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 4px; }
+.p-nota .nt-head b { display: inline; margin: 0 4px 0 0; }
+.nt-tag {
+  display: inline-block; font-family: var(--ui); font-size: 11px; line-height: 1.6; padding: 0 8px; border-radius: 999px;
+  border: 1px solid currentColor; letter-spacing: .02em; white-space: nowrap;
+}
+.nt-trocadilho { color: #a8372a; }
+.nt-imagem-no-ideograma { color: #2f6f8f; }
+.nt-imagem-na-palavra { color: #5b6b2f; }
+.nt-epiteto-classico { color: #7a4f9a; }
+.nt-alusao { color: #8a6a1f; }
+.nt-simetria { color: #2f7f6f; }
+.nt-tom-do-verso { color: #9a4f6f; }
+.nt-ensinamento { color: #b06a00; font-weight: 600; }
+:root[data-theme="dark"] .nt-tag { filter: brightness(1.6); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .nt-tag { filter: brightness(1.6); } }
+.kf {
+  display: inline-block; font-family: var(--jp); font-size: .92em; padding: 0 8px; margin: 1px 0; border-radius: 6px;
+  background: var(--card); border: 1px solid var(--line); color: var(--ink); white-space: nowrap;
+}
+#ntype { height: 32px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); max-width: 190px; }
+#ntype:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* guia "Como ler as notas" */
+.guide { grid-column: 1 / -1; border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: 10px; background: var(--card); }
+.guide summary { cursor: pointer; padding: 10px 18px; font-family: var(--ui); font-size: 13.5px; color: var(--ink); font-weight: 500; }
+.guide .body { padding: 0 24px 16px; color: var(--ink-soft); max-width: 980px; font-size: 16.5px; }
+.guide h3 { font-family: var(--ui); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin: 16px 0 6px; font-weight: 500; }
+.guide ul { margin: 0; padding-left: 20px; }
+.guide li { margin: 6px 0; }
+.nt-legend { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 0; }
+.nt-legend dt, .nt-legend dd { margin: 0; }
+
+/* barra do topo em janelas médias: compacta para caber tudo */
+@media (max-width: 1360px) {
+  .bar { gap: 10px; padding: 0 14px; }
+  .brand-pt { display: none; }
+  .seg button { padding: 5px 10px; }
+  .bar-right { gap: 6px; }
+  #filter, #ntype { max-width: 132px; padding: 0 8px; }
+  #q { width: 130px; }
+  .progress { min-width: 64px; }
+}

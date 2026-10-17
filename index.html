@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=15">
+<link rel="stylesheet" href="css/style.css?v=17">
 </head>
 <body>
 <header class="bar">
@@ -29,6 +29,7 @@
       <option value="antiga">Escolhidos: Antiga</option>
       <option value="editada">Escolhidos: Editada</option>
     </select>
+    <select id="ntype" title="Filtrar pelo tipo de nota de tradução"></select>
     <input id="q" type="search" placeholder="Buscar nº ou texto…" autocomplete="off">
     <button class="chip" id="btn-jp" aria-pressed="true" title="Mostrar o original japonês como referência">日</button>
     <div class="progress" title="Poemas com escolha definida para o livro">
@@ -65,6 +66,33 @@
         <p><strong>Para o livro</strong> — em cada poema, escolha a versão que entra no Livro de Oração, ou <em class="pt">Editar</em> para
           ajustar o texto. As escolhas ficam salvas neste navegador; use <em class="pt">Exportar</em> para gerar o livro ou um backup.</p>
       </div>
+      <details class="guide" id="guia">
+        <summary>Como ler as notas de tradução</summary>
+        <div class="body">
+          <p>As notas mostram o que a escolha de palavras de Meishu-sama carrega e o português não consegue mostrar sozinho.
+            Não é preciso saber japonês: cada nota começa pelo sentido e só depois mostra a palavra original.</p>
+          <h3>Três ideias que ajudam</h3>
+          <ul>
+            <li><b>O ideograma tem desenho e sentido.</b> Cada ideograma japonês (kanji) é um pequeno desenho com significado, e muitos são feitos de partes menores.
+              Quando a nota mostra uma “conta” como <span class="kf" lang="ja">峠 = 山 montanha + 上 subir + 下 descer</span>, ela está desmontando o ideograma para mostrar a imagem que ele guarda.</li>
+            <li><b>Som e escrita são coisas diferentes.</b> A mesma pronúncia pode ser escrita com ideogramas diferentes, cada um com seu sentido.
+              É isso que permite os trocadilhos: Meishu-sama escolhe um ideograma e o som ainda lembra o outro.</li>
+            <li><b>Romaji</b> é o japonês escrito com o nosso alfabeto, para mostrar como se pronuncia. Na nota, aparece em <i>itálico</i>.</li>
+          </ul>
+          <h3>Os tipos de nota</h3>
+          <dl class="nt-legend">
+            <dt><span class="nt-tag nt-trocadilho">Trocadilho</span></dt><dd>Uma palavra que soa como outra e diz duas coisas ao mesmo tempo.</dd>
+            <dt><span class="nt-tag nt-imagem-no-ideograma">Imagem no ideograma</span></dt><dd>O desenho escondido dentro do ideograma, desmontado em partes.</dd>
+            <dt><span class="nt-tag nt-imagem-na-palavra">Imagem na palavra</span></dt><dd>A imagem ou a nuance que a palavra original carrega e a tradução não mostra.</dd>
+            <dt><span class="nt-tag nt-epiteto-classico">Epíteto clássico</span></dt><dd>Expressões fixas da poesia japonesa antiga que acompanham certas palavras, como “o céu longínquo”.</dd>
+            <dt><span class="nt-tag nt-alusao">Alusão</span></dt><dd>Referências ao Kojiki, à Bíblia, ao budismo, a provérbios e à poesia clássica.</dd>
+            <dt><span class="nt-tag nt-simetria">Simetria</span></dt><dd>Repetições, espelhos e contrastes na construção do verso.</dd>
+            <dt><span class="nt-tag nt-tom-do-verso">Tom do verso</span></dt><dd>Exclamações, formas de respeito e o sentimento que o original carrega.</dd>
+            <dt><span class="nt-tag nt-ensinamento">Ensinamento</span></dt><dd>Notas que tocam na doutrina de Meishu-sama — as que mais pedem a revisão de quem conhece o ensinamento.</dd>
+          </dl>
+          <p>Use o filtro <b>“Nota: …”</b> no topo para ver só os poemas de um tipo — por exemplo, todos os trocadilhos, ou todas as notas de Ensinamento para revisão.</p>
+        </div>
+      </details>
       <details class="preface" id="preface"></details>
     </section>
 
@@ -73,7 +101,7 @@
   </main>
 </div>
 
-<script src="data/gosanka.js?v=15"></script>
-<script src="js/app.js?v=15"></script>
+<script src="data/gosanka.js?v=17"></script>
+<script src="js/app.js?v=17"></script>
 </body>
 </html>

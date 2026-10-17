@@ -33,6 +33,27 @@ def romaji_3(leitura):
     return ku
 
 
+NOTE_TYPES = ["Trocadilho", "Imagem no ideograma", "Imagem na palavra", "Epíteto clássico",
+              "Alusão", "Simetria", "Tom do verso", "Ensinamento"]
+
+
+def load_notes():
+    """Notas de tradução: número|tipo1;tipo2|texto."""
+    notes = {}
+    for path in sorted(glob.glob(os.path.join(ROOT, "traducoes", "notas_*.txt"))):
+        for line in open(path, encoding="utf-8"):
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            num, types, text = line.split("|", 2)
+            types = [t.strip() for t in types.split(";") if t.strip()]
+            unknown = [t for t in types if t not in NOTE_TYPES]
+            if unknown:
+                sys.exit(f"Tipo de nota desconhecido no poema {num}: {unknown}")
+            notes[int(num)] = {"t": types, "x": text.strip()}
+    return notes
+
+
 def same_words(a, b):
     norm = lambda t: " ".join(t.replace(" / ", " ").split()).lower()
     return norm(a) == norm(b)
@@ -43,7 +64,7 @@ def main():
         src = json.load(f)
     fiel = load_lines("fiel_*.txt")
     antiga = load_lines("antiga_3linhas.txt")
-    notas = {n: " / ".join(v) for n, v in load_lines("notas_*.txt").items()}
+    notas = load_notes()
 
     sections, missing = [], []
     for s in src["sections"]:
@@ -76,6 +97,7 @@ def main():
         "title_jp": src["title_jp"],
         "title_pt": src["title"],
         "dates": src.get("publication_date_pt", ""),
+        "note_types": NOTE_TYPES,
         "sections": sections,
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)

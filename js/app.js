@@ -22,6 +22,16 @@
     }).join("　");
   }
 
+  // Nota de tradução: `conta do ideograma` vira destaque; *romaji* vira itálico
+  function noteHTML(text) {
+    return esc(text)
+      .replace(/`([^`]+)`/g, '<span class="kf" lang="ja">$1</span>')
+      .replace(/\*([^*]+)\*/g, "<i>$1</i>");
+  }
+  function typeClass(t) {
+    return "nt-" + t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z]+/g, "-");
+  }
+
   // ---------- dados ----------
   var POEMS = {}, ALL = [];
   D.sections.forEach(function (sec, i) {
@@ -75,7 +85,9 @@
                 '<div class="tr fiel"><div class="tr-label">Fiel</div><p>' + p.new.map(function (l) { return "<span>" + esc(l) + "</span>"; }).join("") + "</p></div>" +
                 '<div class="tr antiga"><div class="tr-label">Antiga</div><p>' + p.old.map(function (l) { return "<span>" + esc(l) + "</span>"; }).join("") + "</p></div>" +
               "</div>" +
-              (p.nt ? '<p class="p-nota"><b>Nota de tradução</b>' + esc(p.nt) + "</p>" : "") +
+              (p.nt ? '<div class="p-nota"><div class="nt-head"><b>Nota de tradução</b>' +
+                p.nt.t.map(function (t) { return '<span class="nt-tag ' + typeClass(t) + '">' + esc(t) + "</span>"; }).join("") +
+                "</div><p>" + noteHTML(p.nt.x) + "</p></div>" : "") +
             "</div>" +
           "</div>" +
           '<div class="decide"><span class="lbl">Para o livro:</span>' +
@@ -217,8 +229,13 @@
   // ---------- busca + filtro ----------
   var norm = function (s) { return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); };
   var index = {};
-  ALL.forEach(function (p) { index[p.n] = norm([p.jp, p.ro.join(" "), p.oldTxt, p.newTxt, p.nt || ""].join(" ")); });
+  ALL.forEach(function (p) { index[p.n] = norm([p.jp, p.ro.join(" "), p.oldTxt, p.newTxt, p.nt ? p.nt.t.join(" ") + " " + p.nt.x : ""].join(" ")); });
   var qEl = $("#q"), filterEl = $("#filter"), filterVal = "all", timer;
+  var ntypeEl = $("#ntype"), ntypeVal = "all";
+  ntypeEl.innerHTML = '<option value="all">Todas as notas</option><option value="any">Só poemas com nota</option>' +
+    D.note_types.map(function (t) { return '<option value="' + esc(t) + '">Nota: ' + esc(t) + "</option>"; }).join("") +
+    '<option value="none">Sem nota</option>';
+  ntypeEl.addEventListener("change", function () { ntypeVal = ntypeEl.value; applyFilter(); });
   qEl.addEventListener("input", function () { clearTimeout(timer); timer = setTimeout(applyFilter, 120); });
   qEl.addEventListener("keydown", function (e) {
     if (e.key === "Enter" && /^\d+$/.test(qEl.value.trim())) { e.preventDefault(); go(+qEl.value.trim()); }
@@ -228,12 +245,15 @@
 
   function applyFilter() {
     var q = norm(qEl.value.trim()), any = false, isNum = /^\d+$/.test(q);
-    var active = !!q || filterVal !== "all";
+    var active = !!q || filterVal !== "all" || ntypeVal !== "all";
     ALL.forEach(function (p) {
       var hit = !q || (isNum ? String(p.n) === q : index[p.n].indexOf(q) > -1);
       if (hit && filterVal !== "all") {
         var ch = book[p.n] ? book[p.n].c : "";
         hit = filterVal === "pending" ? !ch : ch === filterVal;
+      }
+      if (hit && ntypeVal !== "all") {
+        hit = ntypeVal === "any" ? !!p.nt : ntypeVal === "none" ? !p.nt : !!p.nt && p.nt.t.indexOf(ntypeVal) > -1;
       }
       cards[p.n].hidden = !hit; any = any || hit;
     });
@@ -245,7 +265,7 @@
   function go(n) {
     var el = cards[n];
     if (!el) return;
-    if (el.hidden) { qEl.value = ""; filterEl.value = filterVal = "all"; applyFilter(); }
+    if (el.hidden) { qEl.value = ""; filterEl.value = filterVal = "all"; ntypeEl.value = ntypeVal = "all"; applyFilter(); }
     el.scrollIntoView({ block: "start" });
     el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
   }
@@ -281,7 +301,7 @@
         out.push("### " + p.n + (p.mk ? " " + p.mk.replace(/\*/g, "\\*") : "") + "  ·  _" + src + "_", "",
           p.ro.map(function (l) { return "*" + l + "*"; }).join("  \n"), "", p.jp.replace(/[\s　]+/g, "　"), "",
           t.split("\n").map(function (l) { return l.trim(); }).filter(Boolean).join("  \n"), "");
-        if (p.nt) out.push("> **Nota de tradução:** " + p.nt, "");
+        if (p.nt) out.push("> **Nota de tradução (" + p.nt.t.join(", ") + "):** " + p.nt.x, "");
       });
     });
     if (pend) out.splice(4, 0, "> " + pend + " poema(s) ainda sem escolha — incluídos com a tradução fiel provisória.", "");
